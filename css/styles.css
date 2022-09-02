@@ -552,7 +552,8 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio-list .link:hover .portfolio-text {
+.portfolio-list .link:hover .portfolio-text,
+.portfolio-list .link:focus .portfolio-text {
   transform: translateY(0);
 }
 
